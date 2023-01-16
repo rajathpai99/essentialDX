@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>test_acc_picklist__c</fullName>
+    <externalId>false</externalId>
+    <label>test acc picklist</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>apple</fullName>
+                <default>false</default>
+                <label>apple</label>
+            </value>
+            <value>
+                <fullName>ball</fullName>
+                <default>false</default>
+                <label>ball</label>
+            </value>
+            <value>
+                <fullName>cat</fullName>
+                <default>false</default>
+                <label>cat</label>
+            </value>
+            <value>
+                <fullName>dog</fullName>
+                <default>false</default>
+                <label>dog</label>
+            </value>
+            <value>
+                <fullName>elephant</fullName>
+                <default>false</default>
+                <label>elephant</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
